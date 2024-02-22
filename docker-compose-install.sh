@@ -20,3 +20,7 @@ sudo apt-get update
 
  # verify install
  sudo docker run hello-world
+
+# add user to docker group
+ sudo usermod -aG docker $USER
+echo "Remember to logoff/reboot for the changes to take effect."
