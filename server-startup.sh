@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+sudo timedatectl set-timezone America/Denver
+
 sudo apt-get update
 sudo apt-get install git -y
 
